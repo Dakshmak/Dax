@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="twitter:card" content="website" />
         <meta name="twitter:site" content="https://dakshmak.github.io/me/" />
         <meta name="twitter:title" content="Dax Makavana | Front end Developer" />
@@ -12,29 +13,35 @@
         <meta property="og:url" content="https://dakshmak.github.io/me/" />
         <meta property="og:type" content="website" />
         <link rel="shortcut icon" type="image" href="https://i.pinimg.com/474x/61/48/c8/6148c84e1e35ab6875a0069e977b0a11.jpg">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
         <title>Dax Makavana</title>
         <style> 
-        body{
-      
-        }
-        #bg-image{
-            background:url(https://initialcommit.com/img/initialcommit/frontend-development-skills.jpg);
-            background-attachment: fixed;
-            background-size: cover;
-        }
-        body{
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 20px;
-            text-align: center;
-        }
+        .navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    display: flex;
+justify-content: center;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+color: black;
+    padding: 14px 16px;
+text-decoration: none;
+    font-size: 17px;
+  }
         </style>
     </head>
 
-<body id="bg-image">
-    <div>
-        <a href="#"><img src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_home_48px-512.png"style="width:20px;height:20px;"><span>&nbsp;HOME</span></a>
-        <a href="#about"><img src="https://raw.githubusercontent.com/SarthakJShetty/SarthakJShetty.github.io/master/images/icons/about_me.png"style="width: 20px;height: 20px;"><span>&nbsp;About Me</span></a> 
-        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEPcEEnGO0LCvZBjeA7e3Iw6h_Rpl5vX0S5A&usqp=CAU"style="width:20px;height:20px;"><span>&nbsp;HOME</span></a>   
+<body>
+    <div class="navbar">
+        <a href="#"onMouseOver="this.style.color='lightblue'" onMouseOut="this.style.color='black'"><i class="fas fa-home"></i><span>&nbsp;HOME</span></a>
+        <a href="#about"onMouseOver="this.style.color='lightblue'" onMouseOut="this.style.color='black'"><i class="fas fa-user-circle"></i><span>&nbsp;About Me</span></a> 
+        <a href="#contectme"onMouseOver="this.style.color='lightblue'" onMouseOut="this.style.color='black'"><i class="fas fa-phone-square"></i><span>&nbsp;Contect Me</span></a>   
     </div>
     
 
